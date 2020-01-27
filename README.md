@@ -8,9 +8,9 @@ This is a simple and short shell script for Linux that collects the basic proper
 
 The script uses /bin/sh as interpreter and should work with various shells. Of course it's going to work best with bash, but personally I use it with fish.
 
-The script should be run as admin (sudo), otherwise it's going to throw an error or errors, since some of the used commands like fdisk for example require admin permissions.
+The script should be run as admin (sudo), otherwise it's going to throw an error or errors, since some of the used commands like fdisk for example require admin privileges.
 
-There are a few requirements though. These are the applications the script calls to gather the information:
+There are a few requirements though, which are basically the applications used to gather the information:
 
 * fdisk
 * lscpu
@@ -18,7 +18,7 @@ There are a few requirements though. These are the applications the script calls
 * upower and
 * xdpyinfo
 
-So, you might want to install those.
+You might want to install the missing ones on your system.
 
 ## Usage
 
