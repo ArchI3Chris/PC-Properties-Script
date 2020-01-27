@@ -24,4 +24,4 @@ So, you might want to install those.
 
 Clone it, enter the folder, then just run the script with...
 
-> sudo ./pcprop.sh
+`sudo ./pcprop.sh`
